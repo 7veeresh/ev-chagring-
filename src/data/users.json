@@ -1,0 +1,78 @@
+[
+  {
+    "id": "user-001",
+    "email": "admin@ecocharge.com",
+    "password": "admin123",
+    "name": "Admin User",
+    "role": "admin",
+    "phone": "+91 9876543210",
+    "loyaltyPoints": 0,
+    "bookings": [],
+    "reviews": []
+  },
+  {
+    "id": "user-002",
+    "email": "john@example.com",
+    "password": "user123",
+    "name": "John Doe",
+    "role": "user",
+    "phone": "+91 9876543211",
+    "loyaltyPoints": 150,
+    "bookings": [
+      {
+        "id": "booking-001",
+        "stationId": "station-001",
+        "stationName": "EcoCharge Central Mall",
+        "connectorType": "CCS2",
+        "date": "2024-01-15",
+        "time": "14:00",
+        "duration": 2,
+        "vehicle": {
+          "make": "Tesla",
+          "model": "Model 3",
+          "batterySize": 75
+        },
+        "totalCost": 25.0,
+        "status": "completed",
+        "loyaltyPointsEarned": 5
+      }
+    ],
+    "reviews": [
+      {
+        "stationId": "station-001",
+        "rating": 5,
+        "comment": "Excellent charging experience!",
+        "date": "2024-01-15"
+      }
+    ]
+  },
+  {
+    "id": "user-003",
+    "email": "jane@example.com",
+    "password": "user123",
+    "name": "Jane Smith",
+    "role": "user",
+    "phone": "+91 9876543212",
+    "loyaltyPoints": 85,
+    "bookings": [
+      {
+        "id": "booking-002",
+        "stationId": "station-003",
+        "stationName": "Solar Power Station",
+        "connectorType": "Type 2",
+        "date": "2024-01-10",
+        "time": "10:00",
+        "duration": 1.5,
+        "vehicle": {
+          "make": "BMW",
+          "model": "iX",
+          "batterySize": 111
+        },
+        "totalCost": 13.5,
+        "status": "completed",
+        "loyaltyPointsEarned": 10
+      }
+    ],
+    "reviews": []
+  }
+]

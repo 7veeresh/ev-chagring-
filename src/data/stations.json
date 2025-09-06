@@ -1,0 +1,175 @@
+[
+  {
+    "id": "station-001",
+    "name": "EcoCharge Central Mall",
+    "address": "123 Tech Park, Bangalore, Karnataka 560001",
+    "coordinates": [12.9716, 77.5946],
+    "connectors": [
+      {
+        "type": "CCS2",
+        "power": "50kW",
+        "price": 12.5,
+        "available": true
+      },
+      {
+        "type": "CHAdeMO",
+        "power": "25kW",
+        "price": 10.0,
+        "available": true
+      },
+      {
+        "type": "Type 2",
+        "power": "22kW",
+        "price": 8.5,
+        "available": false
+      }
+    ],
+    "amenities": ["Parking", "Restaurant", "WiFi", "Restroom"],
+    "rating": 4.8,
+    "reviews": 156,
+    "operatingHours": "24/7",
+    "status": "online",
+    "loyaltyPoints": 5,
+    "peakHours": {
+      "start": "18:00",
+      "end": "22:00",
+      "multiplier": 1.5
+    }
+  },
+  {
+    "id": "station-002",
+    "name": "Green Energy Hub",
+    "address": "456 MG Road, Mumbai, Maharashtra 400001",
+    "coordinates": [19.0760, 72.8777],
+    "connectors": [
+      {
+        "type": "CCS2",
+        "power": "150kW",
+        "price": 15.0,
+        "available": true
+      },
+      {
+        "type": "Type 2",
+        "power": "11kW",
+        "price": 7.5,
+        "available": true
+      }
+    ],
+    "amenities": ["Parking", "Coffee Shop", "WiFi", "Restroom", "Shopping"],
+    "rating": 4.6,
+    "reviews": 89,
+    "operatingHours": "06:00 - 23:00",
+    "status": "online",
+    "loyaltyPoints": 8,
+    "peakHours": {
+      "start": "19:00",
+      "end": "21:00",
+      "multiplier": 1.3
+    }
+  },
+  {
+    "id": "station-003",
+    "name": "Solar Power Station",
+    "address": "789 Cyber City, Gurgaon, Haryana 122002",
+    "coordinates": [28.4595, 77.0266],
+    "connectors": [
+      {
+        "type": "CCS2",
+        "power": "100kW",
+        "price": 13.0,
+        "available": true
+      },
+      {
+        "type": "CHAdeMO",
+        "power": "50kW",
+        "price": 11.5,
+        "available": true
+      },
+      {
+        "type": "Type 2",
+        "power": "22kW",
+        "price": 9.0,
+        "available": true
+      }
+    ],
+    "amenities": ["Parking", "WiFi", "Restroom", "Solar Panels"],
+    "rating": 4.9,
+    "reviews": 203,
+    "operatingHours": "24/7",
+    "status": "online",
+    "loyaltyPoints": 10,
+    "peakHours": {
+      "start": "17:00",
+      "end": "23:00",
+      "multiplier": 1.4
+    }
+  },
+  {
+    "id": "station-004",
+    "name": "EcoTech Plaza",
+    "address": "321 IT Corridor, Chennai, Tamil Nadu 600001",
+    "coordinates": [13.0827, 80.2707],
+    "connectors": [
+      {
+        "type": "CCS2",
+        "power": "75kW",
+        "price": 12.0,
+        "available": false
+      },
+      {
+        "type": "Type 2",
+        "power": "22kW",
+        "price": 8.0,
+        "available": true
+      }
+    ],
+    "amenities": ["Parking", "WiFi", "Restroom"],
+    "rating": 4.4,
+    "reviews": 67,
+    "operatingHours": "07:00 - 22:00",
+    "status": "maintenance",
+    "loyaltyPoints": 6,
+    "peakHours": {
+      "start": "18:00",
+      "end": "21:00",
+      "multiplier": 1.2
+    }
+  },
+  {
+    "id": "station-005",
+    "name": "Future Charge Point",
+    "address": "654 Business District, Pune, Maharashtra 411001",
+    "coordinates": [18.5204, 73.8567],
+    "connectors": [
+      {
+        "type": "CCS2",
+        "power": "200kW",
+        "price": 18.0,
+        "available": true
+      },
+      {
+        "type": "CHAdeMO",
+        "power": "100kW",
+        "price": 15.0,
+        "available": true
+      },
+      {
+        "type": "Type 2",
+        "power": "22kW",
+        "price": 10.0,
+        "available": true
+      }
+    ],
+    "amenities": ["Parking", "Restaurant", "WiFi", "Restroom", "Lounge", "EV Service"],
+    "rating": 4.7,
+    "reviews": 134,
+    "operatingHours": "24/7",
+    "status": "online",
+    "loyaltyPoints": 12,
+    "peakHours": {
+      "start": "18:00",
+      "end": "22:00",
+      "multiplier": 1.6
+    }
+  }
+]
